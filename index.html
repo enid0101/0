@@ -3,46 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的網站</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Buddy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #dca3b1;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #dca3b1;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        .hero {
+            background-image: url('dog.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 5rem 1rem;
+        }
+        .hero h2 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5rem;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        footer {
+            background-color: #dca3b1;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>歡迎來到我的網站</h1>
+        <h1>BUDDY</h1>
         <nav>
             <ul>
-                <li><a href="#">首頁</a></li>
-                <li><a href="#">關於我們</a></li>
-                <li><a href="#">服務項目</a></li>
-                <li><a href="#">聯絡我們</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">CONNECT</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section id="hero">
-            <h2>這是網站的主要區域</h2>
-            <p>這裡可以放一些介紹文字或圖片，吸引訪客的注意力。</p>
-        </section>
+    <div class="hero">
+        <h2>HEY</h2>
+        <p>EVERYBODY'S BUDDY</p>
+        <button>ADD BUTTON</button>
+    </div>
 
-        <section id="about">
-            <h2>關於我們</h2>
-            <p>這部分可以放一些公司或個人的簡介。</p>
-        </section>
+    <section id="about">
+        <h2>About</h2>
+        <p>這部分可以放一些關於我們的介紹。</p>
+    </section>
 
-        <section id="services">
-            <h2>服務項目</h2>
-            <p>這裡介紹你提供的服務或產品。</p>
-        </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>這裡可以放一些圖片展示。</p>
+    </section>
 
-        <section id="contact">
-            <h2>聯絡我們</h2>
-            <p>這部分可以放聯絡資訊或聯絡表單。</p>
-        </section>
-    </main>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>這部分可以放聯絡資訊。</p>
+    </section>
+
+    <section id="connect">
+        <h2>Connect</h2>
+        <p>這裡可以放一些社交媒體連結或其他聯絡方式。</p>
+    </section>
 
     <footer>
-        <p>&copy; 2024 我的網站. 版權所有。</p>
+        <p>&copy; 2024 Buddy. 版權所有。</p>
     </footer>
 </body>
 </html>
