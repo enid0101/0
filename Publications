@@ -1,12 +1,37 @@
-Journal papers.
-[1] C.Y. Cheng, Y.C. Lin*, K.M. Chang, I.C. Chang, “AI Prediction System on Intradialytic Hypotension”, Submitted to JAMIA. (Under review)
-[2] Y.C. Lin, K.M. Chang*,” Sarcopenia and Osteoporosis Evaluation based on Center of Pressure Derived Features”, Submitted to IEEE sensors. (Under review)
-
-Conference Publications	
-[1] Y.C. Lin*, (2024) “Securing Healthcare in the Era of AI: Risks and Challenges for Improving Cybersecurity During Systems Upgrades”,IEEE CNS Conference, Taiwan 
-[2] C.Y. Cheng, Y.C. Lin*. I-Chiu Chang,(2024)“Evaluating Dialysate Flow and UFR Effects on Membrane Pressure Using Machine Learning”,ICEB Conference, Hong Kong, China
-[3] Y.C. Lin*, S.Y. Liang., (2024) “Interdisciplinary Approaches to Childhood Trauma: Machine Learning and Biomedical Monitoring in Predicting Domestic Violence Trends”, NWC Conference, San Francisco, USA
-[4] Y.C. Lin, L.K. Huang, J.C. Wu, T.Y. Chang, H.W. Hu*., (2024) “Early Detection of Alzheimer's Disease through Eye Movement Analysis: A Digital Diagnostic Approach”, IEEE iWEM Conference, Taiwan
-[5] Y.C. Lin, H.W. Hu*, J.A. Wang, M.H. Lee., (2024) “Interpretability after Deep Learning Analysis of Intradialytic Hypotension Prediction Model with Recommendation Reports Utilizing Large Language Model”, IEEE ECBIOS Conference Taiwan
-[6] Y.C. Lin, P.T. Liu, T.S. Wei, K.M. Chang*., (2024) “Sarcopenia Detection by Center of Pressure with Empirical Mode Decomposition Derived Entropy Features”. SEMBA Conference, Taiwan 
-[7] Y.C. Lin, J.Y. Huang, C.C. Wei*., (2023) “The trend of prevalence in attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder (ASD), and Asperger syndrome (AS) in the US from 2014 to 2023”. TSBME Conference, Taiwan
+<div id="main" role="main">
+    <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+        <meta itemprop="headline" content="">
+        <div class="page__inner-wrap">
+            <header>
+                <h1 class="page__title" itemprop="headline"></h1>
+            </header>
+            <section class="page__content" itemprop="text">
+                <h1 id="journal-papers">Journal Papers:</h1>
+                <ol>
+                    <li>
+                        <p> <strong>Y.C. Lin</strong>K.M. Chang*, “” Sarcopenia and Osteoporosis Evaluation based on Center of Pressure Derived Features”  <em>Submitted to IEEE sensors</em>,(Under review)</p>
+                    </li>
+                    <li>
+                        <p>C.Y. Cheng, <strong>Y.C. Lin*</strong>, K.M. Chang, I.C. Chang,  “AI Prediction System on Intradialytic Hypotension”, Submitted to <em>JAMIA</em>(Under review).</p>
+                    </li>
+                </ol>
+                <h1 id="conference-papers">Conference Papers:</h1>
+                <ol>
+                    <li>
+                        <p><strong>Y.C. Lin*</strong>, “Securing Healthcare in the Era of AI: Risks and Challenges for Improving Cybersecurity During Systems Upgrades”,<em>IEEE CNS Conference</em>, Taiwan </p>
+                    </li>
+                    <li>
+                        <p>C.Y. Cheng<strong>Y.C. Lin*</strong>,I-Chiu Chang,““Evaluating Dialysate Flow and UFR Effects on Membrane Pressure Using Machine Learning” <em>ICEB Conference</em>, Hong Kong, China</p>
+                    </li>
+                    <li>
+                        <p><strong>Y.C. Lin*</strong>,S.Y. Liang.(2024)“(2024)“Evaluating Dialysate Flow and UFR Effects on Membrane Pressure Using Machine Learning”, <em> NWC Conference</em>, San Francisco, USA</p>
+                    </li>
+                    <li>
+                        <p><strong>Y.C. Lin*</strong> L.K. Huang, J.C. Wu, T.Y. Chang, H.W. Hu*., (2024) “Early Detection of Alzheimer's Disease through Eye Movement Analysis: A Digital Diagnostic Approach”, submitted to <em>IEEE iWEM Conference</em>,Taiwan</p>
+                    </li>
+                </ol>
+            </section>
+            <footer class="page__meta"></footer>
+        </div>
+    </article>
+</div>
