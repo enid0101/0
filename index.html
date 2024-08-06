@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yu Chun Lin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1>Yu Chun Lin</h1>
+        </div>
+        <nav class="header-right">
+            <ul>
+                <li><a href="#" onclick="showPage('home')">HOME</a></li>
+                <li><a href="#" onclick="showPage('about')">ABOUT ME</a></li>
+                <li>
+                    <a href="#" onclick="showPage('experiences')">EXPERIENCES</a>
+                    <ul class="dropdown">
+                        <li><a href="#" onclick="showPage('researchOverview')">Research Overview</a></li>
+                        <li><a href="#" onclick="showPage('researchProjects')">Research Projects</a></li>
+                        <li><a href="#" onclick="showPage('mentorshipTeaching')">Mentorship & Teaching</a></li>
+                        <li><a href="#" onclick="showPage('leadership')">Leadership</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" onclick="showPage('publications')">PUBLICATIONS</a>
+                    <ul class="dropdown">
+                        <li><a href="#" onclick="showPage('publicationsContent')">Publications</a></li>
+                        <li><a href="#" onclick="showPage('presentations')">Presentations</a></li>
+                        <li><a href="#" onclick="showPage('codes')">Codes</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" onclick="showPage('education')">EDUCATION</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <h2>About Me</h2>
+            <img src="your-image-url.jpg" alt="Profile Picture">
+            <div class="topic-container">
+                <p class="topic">Personal Introduction</p>
+                <p class="content">Hello! I am Yu Chun Lin, a passionate software developer with a keen interest in web technologies and machine learning. I enjoy solving complex problems and creating innovative solutions.</p>
+                <p class="content">With a strong foundation in computer science, I have developed numerous projects that showcase my skills and dedication. My goal is to continuously learn and grow in this ever-evolving field.</p>
+                <p class="content">Outside of work, I love exploring new places, reading books, and spending time with family and friends.</p>
+            </div>
+        </section>
+        <section id="about" style="display: none;">
+            <h2>Self Introduction</h2>
+            <img src="your-image-url.jpg" alt="Background Picture">
+            <div class="topic-container">
+                <p class="topic">Background</p>
+                <p class="content">I was born and raised in Taiwan, where I developed a deep interest in technology from a young age. My curiosity led me to pursue a degree in computer science.</p>
+                <p class="content">Throughout my academic journey, I have been involved in various projects that have helped me hone my skills in software development, data analysis, and machine learning.</p>
+                <p class="content">My dedication to my craft has earned me several accolades and opportunities to work with talented professionals in the industry.</p>
+            </div>
+        </section>
+        <section id="experiences" style="display: none;">
+            <h2>Experiences</h2>
+            <img src="your-image-url.jpg" alt="Experiences Picture">
+            <div class="topic-container">
+                <p class="topic">Professional Experience</p>
+                <p class="content">I have worked with several companies, contributing to projects that span web development, software engineering, and data science. My roles have ranged from frontend developer to full-stack engineer.</p>
+                <p class="content">In my previous role at XYZ Corp, I led a team to develop a cutting-edge web application that streamlined business processes and improved user engagement.</p>
+                <p class="content">I have also freelanced, providing tailored software solutions to clients, ensuring high-quality and efficient results.</p>
+            </div>
+        </section>
+        <section id="researchOverview" style="display: none;">
+            <h2>Research Overview</h2>
+            <p>Details about your research overview go here...</p>
+        </section>
+        <section id="researchProjects" style="display: none;">
+            <h2>Research Projects</h2>
+            <p>Details about your research projects go here...</p>
+        </section>
+        <section id="mentorshipTeaching" style="display: none;">
+            <h2>Mentorship & Teaching</h2>
+            <p>Details about your mentorship and teaching go here...</p>
+        </section>
+        <section id="leadership" style="display: none;">
+            <h2>Leadership</h2>
+            <p>Details about your leadership experience go here...</p>
+        </section>
+        <section id="publications" style="display: none;">
+            <h2>Publications</h2>
+            <img src="your-image-url.jpg" alt="Publications Picture">
+            <div class="topic-container">
+                <p class="topic">Key Publications</p>
+                <p class="content">I have authored and co-authored several papers in prestigious journals and conferences. My research primarily focuses on machine learning algorithms and their applications in real-world scenarios.</p>
+                <p class="content">One of my notable publications is "Enhancing Neural Network Performance with Advanced Optimization Techniques," presented at the International Conference on Machine Learning.</p>
+                <p class="content">Additionally, I have contributed to open-source projects, sharing my knowledge and collaborating with the global developer community.</p>
+            </div>
+        </section>
+        <section id="publicationsContent" style="display: none;">
+            <h2>Publications</h2>
+            <p>Details about your publications go here...</p>
+        </section>
+        <section id="presentations" style="display: none;">
+            <h2>Presentations</h2>
+            <p>Details about your presentations go here...</p>
+        </section>
+        <section id="codes" style="display: none;">
+            <h2>Codes</h2>
+            <p>Details about your code contributions go here...</p>
+        </section>
+        <section id="education" style="display: none;">
+            <h2>Education</h2>
+            <img src="your-image-url.jpg" alt="Education Picture">
+            <div class="topic-container">
+                <p class="topic">Academic Background</p>
+                <p class="content">I hold a Bachelor's degree in Computer Science from National Taiwan University, where I graduated with honors. My coursework included advanced topics in algorithms, data structures, and artificial intelligence.</p>
+                <p class="content">During my studies, I was actively involved in research projects and served as a teaching assistant, helping other students grasp complex concepts.</p>
+                <p class="content">I am currently pursuing a Master's degree, focusing on deep learning and its applications in natural language processing.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
