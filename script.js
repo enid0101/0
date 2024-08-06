@@ -22,9 +22,3 @@ function showPage(pageId) {
         }, 500);
     }
 }
- document.getElementById('view-cv').addEventListener('click', function(event) {
-    event.preventDefault(); // Prevent default link behavior
-    const pdfViewer = document.getElementById('pdf-viewer');
-    pdfViewer.src = 'https://drive.google.com/file/d/0B105w7dYVSA6VGJsZkZaVFV5elk/view?usp=preview&resourcekey=0-aK2zLkRu_lMLsf1dpODGsA';
-    pdfViewer.style.display = 'block'; // Show the iframe
- });
