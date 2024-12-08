@@ -6,13 +6,14 @@ body {
 }
 
 header {
-    background-color: #20a025;
-    color: rgb(255, 255, 255);
+    background-color: #3cd7c7;
+    color: rgb(0, 0, 0);
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 4px rgba(11, 255, 109, 0.868);
+    font-size: 15px; 
+    box-shadow: 0 2px 4px rgba(23, 233, 107, 0.868);
 }
 
 .header-left h1 {
@@ -34,6 +35,7 @@ nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-size: 15px; 
     transition: color 0.3s ease;
 }
 
@@ -43,8 +45,8 @@ nav a:hover {
 
 main {
     padding: 20px;
-    max-width: 800px;
-    margin: 20px auto;
+    max-width: 1000px;
+    margin: 50px auto;
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -53,7 +55,7 @@ main {
 
 h2 {
     color: #4CAF50;
-    border-bottom: 2px solid #4CAF50;
+    border-bottom: 2px solid #02d858;
     padding-bottom: 5px;
     margin-bottom: 20px;
 }
@@ -66,11 +68,11 @@ img {
 }
 
 .topic-container {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .topic {
-    font-size: 1.5em;
+    font-size: 2.0em;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -92,13 +94,31 @@ section.active {
     opacity: 1;
 }
 
+.container {
+    display: flex;
+    align-items: flex-start;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.image-container {
+    flex: 0 0 50%;
+    padding-right: 20px;
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+.info-container {
+    flex: 1;
+}
+
 /* 下拉選單樣式 */
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-    transition: color 0.3s ease;
+    transition: color 0.01s ease;
 }
 
 nav ul li {
@@ -130,11 +150,11 @@ nav ul li:hover ul.dropdown {
 nav ul li ul.dropdown li {
     display: block;
     margin: 0;
-    padding: 10px 20px; /* 增加內邊距 */
+    padding: 10px 20px; 
 }
 
 nav ul li ul.dropdown li a {
-    font-size: 12px; /* 調整字體大小 */
+    font-size: 14px; 
     transition: color 0.3s ease;
 }
 
