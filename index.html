@@ -34,8 +34,8 @@
                     </ul>
                 <li><a href="#" onclick="showPage('Project')">Project</a>
                     <ul class="dropdown">
-                        <li><a href="#" onclick="showPage('DRQN')">DRQN</a></li>
-                        <li><a href="#" onclick="showPage('NLP Cancer Classification')">Cancer NLP</a></li>
+                        <li><a href="#" onclick="showPage('DRL')">DRL</a></li>
+                        <li><a href="#" onclick="showPage('NLP/LLMs')">NLP/LLMs</a></li>
                         <li><a href="#" onclick="showPage('Childrenhood trauma research')">Childrenhood trauma research</a></li>
                         <li><a href="#" onclick="showPage('EEG')">EEG</a></li>
                         <li><a href="#" onclick="showPage('EKG')">EKG</a></li>
@@ -70,9 +70,10 @@
             <img src="https://github.com/enid0101/0/blob/main/gif/Intro.gif?raw=true" width="750" height="700" alt="Yu-chun Lin">
             <div class="topic-container">
                 <h2>Hi there</h2>
-                <p style="font-size: 19px;color: rgb(0, 0, 0);">I am currently pursuing a Master degree at the Institute of Medicine, Chung Shan Medical University, Taiwan. My research interests include wearable devices, child psychiatry, Electrocardiogram (ECG), Electromyography (EMG),electroencephalogram (EEG), arrhythmia, medical engineering, human signals, and machine learning.</p>
-                <p style="font-size: 19px;color: rgb(0, 0, 0);">I'm fascinated by signals. Recently, I've been using CoP (Center of Pressure) and combining it with IMFs/EMD to decompose human body sway amplitude signals. I hope to make a breakthrough when integrating this with EMG. I'm also particularly fond of EKG. During my clinical internship, I learned a lot about the changes in the heart within just a few seconds. The instantaneous appearance of signals is truly captivating to me! It's like something that can be encountered but not sought after.</p>
-                <p style="font-size: 19px;color: rgb(0, 0, 0);">As you can see, my college GPA was very low early (you can find on "Hospital life" this pages that why, and I made progress!). My health began to improve in the spring of 2022. Despite undergoing treatment in college, I was determined not to give up. I truly started my research journey in June 2023. You might be wondering, "How did you manage to achieve such substantial research output in just two years?" To be honest, I don't have a biological family, which allows me to focus more on myself. I also prefer spending time in nature rather than using social media. In my spare time, I enjoy drawing with classmates from different countries and discussing our cultures, which is incredibly enriching. Occasionally, we even cook each other’s hometown dishes together.</p>
+                <p style="font-size: 19px;color: rgb(0, 0, 0);">I am currently pursuing a master's degree at the Institute of Medicine, Chung Shan Medical University, Taiwan. I also pursued studies in EE/CS-related courses at National Chung Hsing University. My research interests include wearable devices, child psychiatry, ECG, EEG, cardiology, signal processing, and Advanced AI.</p>
+                <p style="font-size: 19px;color: rgb(0, 0, 0);">I'm fascinated by signals. Recently, I've been using CoP (Center of Pressure) and combining it with IMFs/EMD to decompose human body sway amplitude signals. I hope to make a breakthrough when integrating this with EMG. I'm also particularly fond of EKG. During my clinical internship, I learned a lot about the changes in the heart within just a few seconds. The instantaneous appearance of signals is truly captivating to me! It's like something that "can be encountered but not sought after."</p>
+                <p style="font-size: 19px;color: rgb(0, 0, 0);">As you can see, my bachelor's GPA was very low early (you can find it on "Hospital life" this page; that's why, and I made progress!). My health began to improve in the spring of 2022. Despite undergoing physical treatment in college, I was determined not to give up. I truly started my research journey in June 2023. You might be wondering, "How did you manage to achieve such substantial research output in just two years?" To be honest, although violence left me without a biological family, it has given me the opportunity to focus more on myself. I prefer spending time in nature over using social media. In my free time, I enjoy drawing with classmates from various countries and sharing cultural discussions. Sometimes, we play football together, which is always a rewarding experience. On occasion, we even cook each other’s traditional dishes, making the moments even more memorable.</p>
+                <p style="font-size: 19px;color: rgb(0, 0, 0);">I oppose war and violence, advocate for peace, and enjoy exploring alternative hypotheses. If you're interested in research related to trauma and brain optimization, feel free to join me for a discussion—don’t hesitate!</p>
                 <p><a class="icon-link-button" href="https://enid0101.github.io/0/file/updateCV.pdf"><div class="link-button" style="font-weight: bold; color: #fe1a01;"><i class="fa-solid fa-portrait fa-fw" style="color: #0066cc;"></i><span class="icon-text" style="font-weight: bold; font-size: 18px;color: #0066cc;">You can view my CV here.</span></div></a></p>                          
                 <div id="pdf-container">
                      <h2>Information</h2>
@@ -177,11 +178,10 @@
                 <p>You taught me what life is.</p>
                 <p>You gave me a new life.</p>
                 <img src="https://github.com/enid0101/0/blob/main/gallery/filial%20affection.gif?raw=true" width="700" height="700" alt="Yu-chun Lin">
-                <p><a href="https://www.youtube.com/watch?v=F5RE_S8aIF8" rel="noopener noreferrer">汪蘇瀧 - 追光者/The Chasing Light </a></p>
+                <p><a href="https://www.youtube.com/watch?v=F5RE_S8aIF8" rel="noopener noreferrer">The Chasing Light </a></p>
                 <p style="font-weight: bold">The past</p>
                 <img src="https://github.com/enid0101/0/blob/main/gallery/B&M.jpg?raw=true" width="550" height="550" alt="Yu-chun Lin">
                 <p style="font-weight: bold;font-style: italic;font-size: 16px;color: rgb(0, 197, 56);">As long as you are happy.</p>
-                <p><a href="https://www.youtube.com/watch?v=1kehqCLudyg" target="_blank" rel="noopener noreferrer">SHAUN feat. Conor Maynard - Way Back Home</a></p>
             </section>
             <section id="Rotary" style="Rotary;">
                 <div class="topic-container">
@@ -396,6 +396,14 @@
             </section>
             <section id="DRQN" style=display: none;>
                 <div class="topic-container">
+                <h2>Gridworld Environment and Value Iteration</h2>
+                <p>Well, this has been really tough for me because I don’t have any background in CS or EE. But I tend to dive right in whenever I'm learning something new and see it through. I started out teaching myself C++ in the spring of 2023, then joined some NCHU EE/CS classes and managed to complete a few projects along the way.</p>
+                <p>This might be super easy for someone who's into EE/CS, but for me, it's like an extreme challenge!</p>
+                <p>I still remember the first time during the Machine Learning exam when the professor told me, "You can keep debugging until you successfully run the code."</p>
+                <p>"Wow," I was shocked, because from a medical perspective, even in laboratory exams, I only have at most two chances. The professor always emphasized, "Life does not get a do-over."</p>
+                <p>Through the integration of pure "engineering" and pure "medicine," I gradually developed the ability to think from different perspectives, which has strengthened my skills in independent thinking and problem-solving.</p>
+                <img src="https://github.com/enid0101/0/blob/main/video/dqn-agent-step-0-to-step-30.gif?raw=true" width="750" height="750" alt="Yu-chun Lin">
+                <p style="font-weight: bold;font-style: italic;font-size: 16px;color: rgb(197, 0, 0);">Working...</p>
                 <h2>DRQN Autonomous Vehicle</h2>
                 <p>In this project, I implemented a deep reinforcement learning model in my cloud computing course, using DQN (Deep Q-Network) to solve problems in a simulated environment. My main goal was to enhance the performance of DRQN (Deep Recurrent Q-Network) using a custom feature extractor.</p>
                 <p>I utilized the following techniques to strengthen the performance of DRQN:</p>
@@ -404,12 +412,14 @@
                 <img src="https://github.com/enid0101/0/blob/main/video/dqn-agent-step-0-to-step-30.gif?raw=true" width="750" height="750" alt="Yu-chun Lin">
                 <li><a href="https://github.com/enid0101/DRQN" target="_blank">My Github</a></li>
             </section>
-                <section id="NLP Cancer Classification" style=display: none;>
+                <section id="NLP/LLMs" style=display: none;>
                 <div class="topic-container">
                 <h2>NLP Cancer Classification</h2>
                 <p>This is our Final Report on : Machine Learning Analysis of The Top 10 Most Frequent Cancer Types in Men, Women, and Mixed Populations</p>
                 <p>For more information and the complete report, you can refer here.</p>
                 <li><a href="https://enid0101.github.io/0/file/Machine%20learning%20Group%20A%20report.pdf"><i class="fas fa-fw fa-graduation-cap"></i>NLP Cancer Classification</p></li></a>
+                <h2>LLMs</h2>
+                <p style="font-weight: bold;font-style: italic;font-size: 16px;color: rgb(197, 0, 0);">Working...</p>
             </section>
             <section id="EEG" style=display: none;>
                 <div class="topic-container">
