@@ -6,14 +6,14 @@ body {
 }
 
 header {
-    background-color: #3cd7c7;
+    background-color: #42f2c3;
     color: rgb(0, 0, 0);
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 15px; 
-    box-shadow: 0 2px 4px rgba(23, 233, 107, 0.868);
+    box-shadow: 0 2px 4px rgba(8, 189, 81, 0.868);
 }
 
 .header-left h1 {
@@ -150,11 +150,11 @@ nav ul li:hover ul.dropdown {
 nav ul li ul.dropdown li {
     display: block;
     margin: 0;
-    padding: 10px 20px; 
+    padding: 10px 20px; /* 增加內邊距 */
 }
 
 nav ul li ul.dropdown li a {
-    font-size: 14px; 
+    font-size: 14px; /* 調整字體大小 */
     transition: color 0.3s ease;
 }
 
